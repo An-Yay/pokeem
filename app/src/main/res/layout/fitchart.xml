@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--&lt;!&ndash;    <com.txusballesteros.widgets.FitChart&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/fitChart2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginEnd="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginBottom="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        &ndash;&gt;-->
+<!--&lt;!&ndash;        app:backStrokeColor="@color/default_back_stroke_color"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintTop_toTopOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:strokeSize="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:valueStrokeColor="@color/secondaryLightColor" />&ndash;&gt;-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView11"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="2"-->
+<!--        android:textSize="30sp"-->
+<!--        tools:layout_editor_absoluteX="83dp"-->
+<!--        tools:layout_editor_absoluteY="84dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView12"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="h"-->
+<!--        android:textSize="10sp"-->
+<!--        tools:layout_editor_absoluteX="157dp"-->
+<!--        tools:layout_editor_absoluteY="84dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView13"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        tools:layout_editor_absoluteX="237dp"-->
+<!--        tools:layout_editor_absoluteY="84dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView14"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="TextView"-->
+<!--        tools:layout_editor_absoluteX="306dp"-->
+<!--        tools:layout_editor_absoluteY="82dp" />-->
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,10 @@
 pluginManagement {
     repositories {
+        maven { url 'https://dl.bintray.com/rvalerio/maven' }
         gradlePluginPortal()
         google()
         mavenCentral()
+
     }
 }
 dependencyResolutionManagement {
@@ -10,6 +12,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
 
     }
 }
