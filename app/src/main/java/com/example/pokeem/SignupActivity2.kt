@@ -3,6 +3,7 @@ package com.example.pokeem
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.WindowManager
 import android.widget.Button
 
 class SignupActivity2 : AppCompatActivity() {
@@ -13,6 +14,9 @@ class SignupActivity2 : AppCompatActivity() {
 //        val next=findViewById(R.id.next) as Button
         val bk = findViewById(R.id.bk) as Button
         val nxt=findViewById(R.id.nxt) as Button
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)
+        window.statusBarColor = this.resources.getColor(R.color.primBg)
 
 
 

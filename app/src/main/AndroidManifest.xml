@@ -47,20 +47,9 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity
-            android:name="io.appwrite.views.CallbackActivity"
-            android:exported="true">
-            <intent-filter android:label="android_web_auth">
-                <action android:name="android.intent.action.VIEW" />
 
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data android:scheme="appwrite-callback-6337041be63a52a6277b" />
-            </intent-filter>
-        </activity>
         <activity
-            android:name=".EditProfileActivity"
+            android:name="in.stcvit.idcard.ui.activities.EditProfileActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
