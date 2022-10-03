@@ -1,4 +1,6 @@
 # Poke-Em
+# Honestly it isn't functioning properly as of now, will update and fix things soon
+
 The app that enables you to balance your use of digital devices with the aid of friends and family.
 
 ## 🧐 What is the app about?
