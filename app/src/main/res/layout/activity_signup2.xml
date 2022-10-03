@@ -111,20 +111,19 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Button
+    <ImageButton
         android:id="@+id/bk"
         android:layout_width="70dp"
         android:layout_height="60dp"
         android:layout_marginBottom="36dp"
-        android:text="B"
-        android:textColor="@color/primText"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+
         android:backgroundTint="@color/secButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/nxt"
         app:layout_constraintHorizontal_bias="0.1"
         app:layout_constraintStart_toStartOf="@+id/passwordInput"
-        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.TextInputLayout.Rounded" />
-
+        />
     <Button
         android:id="@+id/nxt"
         android:layout_width="240dp"

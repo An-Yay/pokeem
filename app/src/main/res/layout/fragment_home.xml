@@ -5,9 +5,10 @@
     tools:context=".ui.fragments.ProfileFragment">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/primText">
 
-        
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar3"
             android:layout_width="match_parent"
@@ -101,7 +102,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="8dp"
                         android:fontFamily="sans-serif-condensed-light"
-                        android:text="0h 0min"
+                        android:text="1h 10min"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
                         android:textAppearance="@android:style/TextAppearance.Material.Large"
                         android:textSize="36sp"
                         app:layout_constraintBottom_toBottomOf="@+id/fitChart"
@@ -116,6 +119,7 @@
                         android:layout_height="wrap_content"
                         android:text="Stay Below"
                         android:textSize="10sp"
+                        android:textColor="@color/black"
                         app:layout_constraintEnd_toEndOf="@+id/todayUsage"
                         app:layout_constraintStart_toStartOf="@+id/todayUsage"
                         app:layout_constraintTop_toBottomOf="@+id/todayUsage" />
@@ -139,6 +143,7 @@
                         android:layout_height="wrap_content"
                         android:text="0h 0min"
                         android:textSize="10sp"
+                        android:textColor="@color/black"
                         app:layout_constraintEnd_toEndOf="@+id/stayBelow"
                         app:layout_constraintStart_toStartOf="@+id/stayBelow"
                         app:layout_constraintTop_toBottomOf="@+id/stayBelow" />
@@ -149,6 +154,7 @@
                         android:layout_height="wrap_content"
                         android:text="Today"
                         android:textSize="10sp"
+                        android:textColor="@color/black"
                         app:layout_constraintBottom_toTopOf="@+id/todayUsage"
                         app:layout_constraintEnd_toEndOf="@+id/todayUsage"
                         app:layout_constraintStart_toStartOf="@+id/todayUsage" />
@@ -182,6 +188,7 @@
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
+                        android:textColor="@color/primBg"
                         android:text="loading your data"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
